@@ -1,8 +1,9 @@
-module iOSSniffer
+module github.com/gofmt/iOSSniffer
 
 go 1.16
 
 require (
+	github.com/buger/jsonparser v1.1.1
 	github.com/danielpaulus/go-ios v1.0.12
 	github.com/google/uuid v1.2.0 // indirect
 	github.com/sirupsen/logrus v1.8.1 // indirect
